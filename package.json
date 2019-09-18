@@ -1,0 +1,27 @@
+{
+  "name": "ClickyGame",
+  "version": "1.0.0",
+  "description": "In this Game of Thrones themed click game, the user clicks on an image of the characters. The images will then randomly shuffle around and the player must now choose an image that has not been clicked on. User score is kept in the left corner under the title, as well as the top score to beat. Instructions for the game are located on the right side of the page in a bootstrap modal. If the incorrect image is chosen, an alert is sent and the score is reset to 0.",
+  "main": "server.js",
+  "dependencies": {
+    "express-favicon": "^2.0.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acepela5/ClickyGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acepela5/ClickyGame/issues"
+  },
+  "homepage": "https://github.com/acepela5/ClickyGame#readme"
+}
